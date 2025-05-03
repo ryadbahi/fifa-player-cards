@@ -1,12 +1,72 @@
-# React + Vite
+# FIFA Player Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based project built using **Vite** that displays FIFA player cards using **React-Bootstrap** components. It was developed as part of a checkpoint assignment.
 
-Currently, two official plugins are available:
+## 📌 Project Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of the project is to:
 
-## Expanding the ESLint configuration
+- Use JSX and modern React practices.
+- Display a list of FIFA players with details such as name, age, nationality, team, jersey number, and photo.
+- Practice component structure, props, `defaultProps`, and mapping through data.
+- Apply inline styling and use external assets (images).
+- Learn and use `react-bootstrap` components (specifically cards).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- ⚛️ React (with Vite)
+- 💅 JSX
+- 🎨 Inline Styling
+- 🧩 React-Bootstrap
+- 📦 Node.js & npm
+
+## 📁 Project Structure
+
+src/
+├── assets/ # Player images
+├── components/
+│ ├── Player.jsx # Player component
+│ └── PlayersList.jsx # Renders list of players
+├── data/
+│ └── players.js # Array of player data (JSON objects)
+├── App.jsx
+└── main.jsx
+
+## 🚀 How to Run the Project
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/your-username/fifa-player-cards.git
+   cd fifa-player-cards
+
+    Install dependencies:
+   ```
+
+npm install
+
+Start the development server:
+
+    npm run dev
+
+    Open your browser at http://localhost:5173/
+
+🧾 Notes
+
+    All player data is stored in a separate players.js file.
+
+    Props are de-structured and default props are defined in the Player component.
+
+    A soft background color is used to avoid pure white, improving the visual comfort.
+
+    Images are stored locally inside the /assets folder and imported for display.
+
+🎓 Instructor Notes
+
+    This project was created following the checkpoint instructions.
+
+    Vite was used instead of Create React App to follow modern best practices.
+
+    The code is structured and commented for clarity.
+
+    All required React concepts (props, mapping, styling, etc.) have been implemented as instructed.
