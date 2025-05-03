@@ -20,18 +20,6 @@ The goal of the project is to:
 - 🧩 React-Bootstrap
 - 📦 Node.js & npm
 
-## 📁 Project Structure
-
-src/
-├── assets/ # Player images
-├── components/
-│ ├── Player.jsx # Player component
-│ └── PlayersList.jsx # Renders list of players
-├── data/
-│ └── players.js # Array of player data (JSON objects)
-├── App.jsx
-└── main.jsx
-
 ## 🚀 How to Run the Project
 
 1. Clone this repository:
